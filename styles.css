@@ -42,7 +42,7 @@ img {
 }
 
 ul {
-    list-style-type: url("heart-solid.png");
+    list-style-type: url("heart.png");
     color: var(--primary-color);
     margin: 20px;
     text-indent: 10px;
@@ -57,7 +57,5 @@ li a {
 }
 
 footer {
-
     border: var(--primary-color) solid 3px;
-
 }
