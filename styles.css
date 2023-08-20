@@ -27,7 +27,12 @@ p {
     letter-spacing: 1px;
     word-spacing: 2px;
     text-indent: 20px;
+}
 
+img {
+    height: 50%;
+    width: 50%;
+    padding: 50px;
 }
 
 ul {
@@ -43,4 +48,11 @@ li a {
     color: aqua;
     text-decoration: underline;
     text-decoration-color: salmon;
+}
+
+footer {
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border: salmon solid 3px;
 }
