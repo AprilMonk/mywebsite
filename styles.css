@@ -1,3 +1,9 @@
+@import url("all.min.css");
+
+:root {
+    --primary-color: salmon;
+}
+
 body {
     background-color: black;
 }
@@ -37,7 +43,7 @@ img {
 
 ul {
     list-style-type: square;
-    color: salmon;
+    color: var(--primary-color);
     margin: 20px;
     text-indent: 10px;
     line-height: 40px;
@@ -47,12 +53,11 @@ ul {
 li a {
     color: aqua;
     text-decoration: underline;
-    text-decoration-color: salmon;
+    text-decoration-color: var(--primary-color);
 }
 
 footer {
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    border: salmon solid 3px;
+
+    border: var(--primary-color) solid 3px;
+
 }
