@@ -1,5 +1,8 @@
 @import url("all.min.css");
 
+:root {
+    --primary-color: salmon;
+}
 
 body {
     background-color: black;
@@ -54,8 +57,10 @@ li a {
 }
 
 footer {
-    border: var(--primary-color) solid 3px;
+    border: var(--primary-color) solid 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    opacity: 50%;
+    padding: 5px;
 }
