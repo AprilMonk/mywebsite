@@ -66,6 +66,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    opacity: 50%;
+    opacity: 70%;
     padding: 5px;
+    background-color: #131314;
+}
+
+footer a {
+    display: inline-block;
+    filter: brightness(0%) contrast(199%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: .5s;
+}
+
+footer a:hover {
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
 }
