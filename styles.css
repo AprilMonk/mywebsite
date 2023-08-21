@@ -57,5 +57,7 @@ li a {
 }
 
 footer {
-    border: var(--primary-color) solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
